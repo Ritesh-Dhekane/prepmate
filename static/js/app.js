@@ -3,9 +3,11 @@
 
 import * as landing from './screens/landing.js'
 import * as notFound from './screens/not-found.js'
+import * as setup from './screens/setup.js'
 
 const ROUTES = {
   '/': { screen: landing, title: 'Prepare. Practice. Perform.' },
+  '/start': { screen: setup, title: 'Set up your interview' },
 }
 
 const app = document.getElementById('app')
