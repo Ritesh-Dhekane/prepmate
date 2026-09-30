@@ -234,12 +234,12 @@ select {
   font-size: 14px;
 }
 
-.site-nav a {
+.site-nav a:not(.btn) {
   color: var(--ink-2);
 }
 
-.site-nav a:hover,
-.site-nav a[aria-current='page'] {
+.site-nav a:not(.btn):hover,
+.site-nav a:not(.btn)[aria-current='page'] {
   color: var(--cyan-bright);
   text-decoration: none;
 }

@@ -770,6 +770,7 @@ textarea::placeholder {
 .room-progress-text {
   display: flex;
   justify-content: space-between;
+  gap: 0.75rem;
   font-size: 12px;
   margin-bottom: 0.45rem;
 }
@@ -1580,6 +1581,23 @@ kbd {
   }
 
   .room-bar .chip {
+    display: none;
+  }
+
+  .room-bar .brand > span {
+    display: none;
+  }
+
+  .room-progress-text {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .voice-bar {
+    font-size: 12px;
+  }
+
+  .voice-bar .waveform:not(.is-active) {
     display: none;
   }
 
