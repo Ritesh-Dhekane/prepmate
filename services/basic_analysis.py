@@ -84,7 +84,7 @@ def basic_analysis(items: list[tuple[dict, str]]) -> dict:
     improvements = []
     for r in weak:
         if r["missing"] and r["score"] < 8:
-            improvements.append(f"{r['question']['topic']}: {r['missing'][0]}")
+            improvements.append(f"{r['question']['topic']} — {r['missing'][0]}")
     if not improvements:
         improvements = ["Go one level deeper: explain trade-offs, not just definitions"]
 

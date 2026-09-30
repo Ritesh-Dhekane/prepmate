@@ -74,7 +74,7 @@ def test_ai_result_is_returned_with_expected_topics():
 def test_falls_back_to_basic_analysis_when_ai_is_unavailable():
     body = client_with(unavailable).post("/api/analyze", json=payload()).get_json()
     assert body["source"] == "basic"
-    assert "isn't available" in body["notice"]
+    assert "basic analysis" in body["notice"]
     assert 0 <= body["overallScore"] <= 100
     assert len(body["questionFeedback"]) == 5
     assert set(body["metrics"]) == {"technicalKnowledge", "answerRelevance", "conceptClarity",

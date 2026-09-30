@@ -85,8 +85,8 @@ def create_app(analyzer=gemini_analyze) -> Flask:
             result = basic_analysis(items)
             result["source"] = "basic"
             result["notice"] = (
-                "AI analysis isn't available right now, so this is a basic analysis based on "
-                "the key points each answer covered."
+                "This is a basic analysis based on the key points each answer covered. "
+                "Try again later for full AI feedback."
             )
 
         # The model answer outline is shown with each question's feedback, after the interview.
