@@ -1,6 +1,7 @@
 // PrepMate AI — tiny hash router. Each screen module exports render(container) and may return a
 // cleanup function (stop audio, timers) that runs when you leave the screen.
 
+import * as interview from './screens/interview.js'
 import * as landing from './screens/landing.js'
 import * as notFound from './screens/not-found.js'
 import * as setup from './screens/setup.js'
@@ -8,6 +9,7 @@ import * as setup from './screens/setup.js'
 const ROUTES = {
   '/': { screen: landing, title: 'Prepare. Practice. Perform.' },
   '/start': { screen: setup, title: 'Set up your interview' },
+  '/interview': { screen: interview, title: 'Interview', focus: true },
 }
 
 const app = document.getElementById('app')
