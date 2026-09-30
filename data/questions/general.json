@@ -1,0 +1,194 @@
+[
+  {
+    "id": "GN001",
+    "role": "general",
+    "topic": "Projects",
+    "difficulty": "easy",
+    "question": "Tell me about a project you built that you are proud of.",
+    "expected_topics": [
+      "What the project does and who it is for",
+      "Your role and the technologies used",
+      "A challenge you solved and what you learned"
+    ],
+    "keywords": [
+      ["project", "built", "app", "website", "users"],
+      ["i built", "i was", "my role", "technolog", "used", "stack"],
+      ["challenge", "problem", "learn", "result"]
+    ],
+    "audio": "/static/audio/general/GN001.mp3",
+    "wordTimings": [
+      {"word": "Tell", "start": 0.106, "end": 0.239},
+      {"word": "me", "start": 0.253, "end": 0.346},
+      {"word": "about", "start": 0.359, "end": 0.572},
+      {"word": "a", "start": 0.585, "end": 0.625},
+      {"word": "project", "start": 0.638, "end": 1.237},
+      {"word": "you", "start": 1.25, "end": 1.383},
+      {"word": "built", "start": 1.396, "end": 1.702},
+      {"word": "that", "start": 1.715, "end": 1.848},
+      {"word": "you", "start": 1.862, "end": 1.941},
+      {"word": "are", "start": 1.955, "end": 2.061},
+      {"word": "proud", "start": 2.074, "end": 2.46},
+      {"word": "of.", "start": 2.473, "end": 2.646}
+    ]
+  },
+  {
+    "id": "GN002",
+    "role": "general",
+    "topic": "Problem solving",
+    "difficulty": "medium",
+    "question": "Describe how you approach debugging a problem you have never seen before.",
+    "expected_topics": [
+      "Reproduce the problem and read the error",
+      "Narrow it down: logs, debugger, isolate the change",
+      "Fix, test and learn from it"
+    ],
+    "keywords": [
+      ["reproduc", "error message", "read the error"],
+      ["log", "debugger", "breakpoint", "isolat", "narrow"],
+      ["fix", "test", "document", "learn"]
+    ],
+    "audio": "/static/audio/general/GN002.mp3",
+    "wordTimings": [
+      {"word": "Describe", "start": 0.106, "end": 0.545},
+      {"word": "how", "start": 0.558, "end": 0.705},
+      {"word": "you", "start": 0.718, "end": 0.918},
+      {"word": "approach", "start": 0.931, "end": 1.449},
+      {"word": "debugging", "start": 1.463, "end": 2.048},
+      {"word": "a", "start": 2.061, "end": 2.114},
+      {"word": "problem", "start": 2.128, "end": 2.62},
+      {"word": "you", "start": 2.832, "end": 2.926},
+      {"word": "have", "start": 2.939, "end": 3.072},
+      {"word": "never", "start": 3.085, "end": 3.351},
+      {"word": "seen", "start": 3.364, "end": 3.617},
+      {"word": "before.", "start": 3.63, "end": 4.109}
+    ]
+  },
+  {
+    "id": "GN003",
+    "role": "general",
+    "topic": "Teamwork",
+    "difficulty": "medium",
+    "question": "Tell me about a time you disagreed with a teammate. How did you handle it?",
+    "expected_topics": [
+      "The situation and the disagreement",
+      "Listening and discussing with facts",
+      "The outcome and what you learned"
+    ],
+    "keywords": [
+      ["situation", "team", "disagree"],
+      ["listen", "discuss", "explain", "data", "compromise"],
+      ["outcome", "result", "learn", "agreed"]
+    ],
+    "audio": "/static/audio/general/GN003.mp3",
+    "wordTimings": [
+      {"word": "Tell", "start": 0.12, "end": 0.226},
+      {"word": "me", "start": 0.239, "end": 0.332},
+      {"word": "about", "start": 0.346, "end": 0.558},
+      {"word": "a", "start": 0.572, "end": 0.612},
+      {"word": "time", "start": 0.625, "end": 0.931},
+      {"word": "you", "start": 0.944, "end": 1.064},
+      {"word": "disagreed", "start": 1.077, "end": 1.702},
+      {"word": "with", "start": 1.715, "end": 1.862},
+      {"word": "a", "start": 1.875, "end": 1.915},
+      {"word": "teammate.", "start": 1.928, "end": 2.487},
+      {"word": "How", "start": 2.926, "end": 2.992},
+      {"word": "did", "start": 3.005, "end": 3.125},
+      {"word": "you", "start": 3.138, "end": 3.231},
+      {"word": "handle", "start": 3.245, "end": 3.657},
+      {"word": "it?", "start": 3.67, "end": 3.83}
+    ]
+  },
+  {
+    "id": "GN004",
+    "role": "general",
+    "topic": "Learning",
+    "difficulty": "easy",
+    "question": "How do you keep your technical skills up to date?",
+    "expected_topics": [
+      "Learning sources such as docs, courses and blogs",
+      "Building side projects to practise",
+      "Community: open source, meetups, reading code"
+    ],
+    "keywords": [
+      ["documentation", "docs", "course", "blog", "book", "tutorial"],
+      ["project", "build", "practic"],
+      ["open source", "community", "meetup", "github"]
+    ],
+    "audio": "/static/audio/general/GN004.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.186},
+      {"word": "do", "start": 0.199, "end": 0.253},
+      {"word": "you", "start": 0.266, "end": 0.386},
+      {"word": "keep", "start": 0.399, "end": 0.598},
+      {"word": "your", "start": 0.612, "end": 0.718},
+      {"word": "technical", "start": 0.731, "end": 1.21},
+      {"word": "skills", "start": 1.223, "end": 1.556},
+      {"word": "up", "start": 1.569, "end": 1.676},
+      {"word": "to", "start": 1.689, "end": 1.782},
+      {"word": "date?", "start": 1.795, "end": 2.154}
+    ]
+  },
+  {
+    "id": "GN005",
+    "role": "general",
+    "topic": "Time management",
+    "difficulty": "hard",
+    "question": "How do you prioritise your work when you have several deadlines at once?",
+    "expected_topics": [
+      "Judge urgency and impact",
+      "Break work down and plan",
+      "Communicate early about risks"
+    ],
+    "keywords": [
+      ["urgen", "impact", "important", "priorit"],
+      ["break", "plan", "list", "schedule", "estimate"],
+      ["communicat", "inform", "manager", "risk"]
+    ],
+    "audio": "/static/audio/general/GN005.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.12, "end": 0.213},
+      {"word": "do", "start": 0.226, "end": 0.293},
+      {"word": "you", "start": 0.306, "end": 0.412},
+      {"word": "prioritise", "start": 0.426, "end": 1.077},
+      {"word": "your", "start": 1.09, "end": 1.223},
+      {"word": "work", "start": 1.237, "end": 1.529},
+      {"word": "when", "start": 1.636, "end": 1.742},
+      {"word": "you", "start": 1.755, "end": 1.822},
+      {"word": "have", "start": 1.835, "end": 1.968},
+      {"word": "several", "start": 1.981, "end": 2.394},
+      {"word": "deadlines", "start": 2.407, "end": 2.939},
+      {"word": "at", "start": 2.952, "end": 3.045},
+      {"word": "once?", "start": 3.058, "end": 3.524}
+    ]
+  },
+  {
+    "id": "GN006",
+    "role": "general",
+    "topic": "Motivation",
+    "difficulty": "hard",
+    "question": "Why do you want to work as a software developer?",
+    "expected_topics": [
+      "What draws you to building software",
+      "A concrete example or experience",
+      "Where you want to grow"
+    ],
+    "keywords": [
+      ["enjoy", "love", "passion", "build", "solve"],
+      ["example", "when i", "project", "experience"],
+      ["grow", "learn", "future", "goal", "career"]
+    ],
+    "audio": "/static/audio/general/GN006.mp3",
+    "wordTimings": [
+      {"word": "Why", "start": 0.12, "end": 0.213},
+      {"word": "do", "start": 0.226, "end": 0.279},
+      {"word": "you", "start": 0.293, "end": 0.372},
+      {"word": "want", "start": 0.386, "end": 0.519},
+      {"word": "to", "start": 0.532, "end": 0.572},
+      {"word": "work", "start": 0.585, "end": 0.838},
+      {"word": "as", "start": 0.851, "end": 0.944},
+      {"word": "a", "start": 0.957, "end": 1.011},
+      {"word": "software", "start": 1.024, "end": 1.476},
+      {"word": "developer?", "start": 1.489, "end": 2.088}
+    ]
+  }
+]

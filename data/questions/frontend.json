@@ -1,0 +1,317 @@
+[
+  {
+    "id": "FE001",
+    "role": "frontend",
+    "topic": "DOM",
+    "difficulty": "easy",
+    "question": "What is the DOM, and how does JavaScript use it to change a web page?",
+    "expected_topics": [
+      "Document Object Model",
+      "Tree of nodes built from HTML",
+      "Selecting and updating elements with JavaScript"
+    ],
+    "keywords": [
+      ["document object model", "dom"],
+      ["tree", "node", "element"],
+      ["queryselector", "getelementbyid", "innerhtml", "textcontent", "appendchild", "modify", "update", "change"]
+    ],
+    "audio": "/static/audio/frontend/FE001.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.12, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.332},
+      {"word": "the", "start": 0.346, "end": 0.452},
+      {"word": "DOM,", "start": 0.465, "end": 1.051},
+      {"word": "and", "start": 1.37, "end": 1.423},
+      {"word": "how", "start": 1.436, "end": 1.556},
+      {"word": "does", "start": 1.569, "end": 1.729},
+      {"word": "JavaScript", "start": 1.742, "end": 2.354},
+      {"word": "use", "start": 2.367, "end": 2.566},
+      {"word": "it", "start": 2.58, "end": 2.646},
+      {"word": "to", "start": 2.66, "end": 2.713},
+      {"word": "change", "start": 2.726, "end": 3.032},
+      {"word": "a", "start": 3.045, "end": 3.098},
+      {"word": "web", "start": 3.112, "end": 3.338},
+      {"word": "page?", "start": 3.351, "end": 3.816}
+    ]
+  },
+  {
+    "id": "FE002",
+    "role": "frontend",
+    "topic": "HTML",
+    "difficulty": "easy",
+    "question": "What is semantic HTML, and why does it matter?",
+    "expected_topics": [
+      "Tags that describe meaning (header, nav, article, button)",
+      "Accessibility and screen readers",
+      "Search engines and maintainability"
+    ],
+    "keywords": [
+      ["header", "nav", "article", "section", "footer", "main", "meaning"],
+      ["accessib", "screen reader", "a11y"],
+      ["seo", "search engine", "readab", "maintain"]
+    ],
+    "audio": "/static/audio/frontend/FE002.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.346},
+      {"word": "semantic", "start": 0.359, "end": 0.984},
+      {"word": "HTML,", "start": 0.997, "end": 1.782},
+      {"word": "and", "start": 2.101, "end": 2.181},
+      {"word": "why", "start": 2.194, "end": 2.327},
+      {"word": "does", "start": 2.34, "end": 2.487},
+      {"word": "it", "start": 2.5, "end": 2.567},
+      {"word": "matter?", "start": 2.58, "end": 2.979}
+    ]
+  },
+  {
+    "id": "FE003",
+    "role": "frontend",
+    "topic": "CSS",
+    "difficulty": "easy",
+    "question": "Explain the CSS box model.",
+    "expected_topics": [
+      "Content, padding, border and margin",
+      "How width is calculated",
+      "box-sizing: border-box"
+    ],
+    "keywords": [
+      ["content", "padding", "border", "margin"],
+      ["width", "height", "size"],
+      ["box-sizing", "border-box", "content-box"]
+    ],
+    "audio": "/static/audio/frontend/FE003.mp3",
+    "wordTimings": [
+      {"word": "Explain", "start": 0.106, "end": 0.545},
+      {"word": "the", "start": 0.558, "end": 0.638},
+      {"word": "CSS", "start": 0.652, "end": 1.29},
+      {"word": "box", "start": 1.303, "end": 1.622},
+      {"word": "model.", "start": 1.636, "end": 2.008}
+    ]
+  },
+  {
+    "id": "FE004",
+    "role": "frontend",
+    "topic": "JavaScript",
+    "difficulty": "easy",
+    "question": "What is the difference between let, const and var in JavaScript?",
+    "expected_topics": [
+      "Block scope vs function scope",
+      "const cannot be reassigned",
+      "Hoisting and the temporal dead zone"
+    ],
+    "keywords": [
+      ["block scope", "function scope", "scope"],
+      ["reassign", "constant", "cannot be changed"],
+      ["hoist", "temporal dead zone", "tdz"]
+    ],
+    "audio": "/static/audio/frontend/FE004.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.12, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.346},
+      {"word": "the", "start": 0.359, "end": 0.479},
+      {"word": "difference", "start": 0.492, "end": 0.904},
+      {"word": "between", "start": 0.918, "end": 1.343},
+      {"word": "let,", "start": 1.356, "end": 1.662},
+      {"word": "const", "start": 1.955, "end": 2.5},
+      {"word": "and", "start": 2.713, "end": 2.832},
+      {"word": "var", "start": 2.846, "end": 3.138},
+      {"word": "in", "start": 3.152, "end": 3.245},
+      {"word": "JavaScript?", "start": 3.258, "end": 4.029}
+    ]
+  },
+  {
+    "id": "FE005",
+    "role": "frontend",
+    "topic": "Responsive design",
+    "difficulty": "medium",
+    "question": "How would you make a web page responsive across mobile, tablet and desktop?",
+    "expected_topics": [
+      "Viewport meta tag and fluid layouts",
+      "Media queries and breakpoints",
+      "Flexbox or Grid, relative units, mobile-first"
+    ],
+    "keywords": [
+      ["viewport", "fluid", "percentage"],
+      ["media quer", "breakpoint"],
+      ["flexbox", "grid", "rem", "em", "vw", "mobile-first", "mobile first"]
+    ],
+    "audio": "/static/audio/frontend/FE005.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.12, "end": 0.226},
+      {"word": "would", "start": 0.239, "end": 0.372},
+      {"word": "you", "start": 0.386, "end": 0.465},
+      {"word": "make", "start": 0.479, "end": 0.652},
+      {"word": "a", "start": 0.665, "end": 0.731},
+      {"word": "web", "start": 0.745, "end": 1.011},
+      {"word": "page", "start": 1.024, "end": 1.29},
+      {"word": "responsive", "start": 1.303, "end": 1.902},
+      {"word": "across", "start": 1.915, "end": 2.314},
+      {"word": "mobile,", "start": 2.327, "end": 2.806},
+      {"word": "tablet", "start": 3.072, "end": 3.537},
+      {"word": "and", "start": 3.604, "end": 3.683},
+      {"word": "desktop?", "start": 3.697, "end": 4.362}
+    ]
+  },
+  {
+    "id": "FE006",
+    "role": "frontend",
+    "topic": "JavaScript",
+    "difficulty": "medium",
+    "question": "What is event bubbling, and how does event delegation use it?",
+    "expected_topics": [
+      "Events travel up from the target to its ancestors",
+      "One listener on a parent handles many children",
+      "event.target and stopPropagation"
+    ],
+    "keywords": [
+      ["bubbl", "propagat", "parent", "ancestor"],
+      ["delegat", "single listener", "one listener"],
+      ["event.target", "target", "stoppropagation"]
+    ],
+    "audio": "/static/audio/frontend/FE006.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.239},
+      {"word": "is", "start": 0.253, "end": 0.372},
+      {"word": "event", "start": 0.386, "end": 0.745},
+      {"word": "bubbling,", "start": 0.758, "end": 1.237},
+      {"word": "and", "start": 1.676, "end": 1.729},
+      {"word": "how", "start": 1.742, "end": 1.862},
+      {"word": "does", "start": 1.875, "end": 2.021},
+      {"word": "event", "start": 2.035, "end": 2.354},
+      {"word": "delegation", "start": 2.367, "end": 2.965},
+      {"word": "use", "start": 2.979, "end": 3.205},
+      {"word": "it?", "start": 3.218, "end": 3.418}
+    ]
+  },
+  {
+    "id": "FE007",
+    "role": "frontend",
+    "topic": "HTTP/API basics",
+    "difficulty": "medium",
+    "question": "How do you fetch data from an API in JavaScript, and how do you handle errors?",
+    "expected_topics": [
+      "fetch or axios returning a promise",
+      "async/await or then/catch",
+      "Checking response status and handling network errors"
+    ],
+    "keywords": [
+      ["fetch", "axios", "xmlhttprequest"],
+      ["async", "await", "promise", "then", "catch"],
+      ["response.ok", "status", "try", "error", "network"]
+    ],
+    "audio": "/static/audio/frontend/FE007.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.199},
+      {"word": "do", "start": 0.213, "end": 0.279},
+      {"word": "you", "start": 0.293, "end": 0.412},
+      {"word": "fetch", "start": 0.426, "end": 0.731},
+      {"word": "data", "start": 0.745, "end": 1.011},
+      {"word": "from", "start": 1.024, "end": 1.197},
+      {"word": "an", "start": 1.21, "end": 1.343},
+      {"word": "API", "start": 1.463, "end": 2.088},
+      {"word": "in", "start": 2.101, "end": 2.207},
+      {"word": "JavaScript,", "start": 2.221, "end": 2.926},
+      {"word": "and", "start": 3.364, "end": 3.418},
+      {"word": "how", "start": 3.431, "end": 3.55},
+      {"word": "do", "start": 3.564, "end": 3.617},
+      {"word": "you", "start": 3.63, "end": 3.75},
+      {"word": "handle", "start": 3.763, "end": 4.096},
+      {"word": "errors?", "start": 4.109, "end": 4.601}
+    ]
+  },
+  {
+    "id": "FE008",
+    "role": "frontend",
+    "topic": "JavaScript",
+    "difficulty": "hard",
+    "question": "What is a closure in JavaScript? Give a practical example.",
+    "expected_topics": [
+      "A function remembers variables from the scope where it was created",
+      "Lexical scope",
+      "Uses such as private state, counters or callbacks"
+    ],
+    "keywords": [
+      ["remember", "retain", "access", "outer function", "enclosing"],
+      ["lexical", "scope"],
+      ["counter", "private", "callback", "event handler", "factory"]
+    ],
+    "audio": "/static/audio/frontend/FE008.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.199},
+      {"word": "is", "start": 0.213, "end": 0.306},
+      {"word": "a", "start": 0.319, "end": 0.386},
+      {"word": "closure", "start": 0.399, "end": 0.891},
+      {"word": "in", "start": 0.904, "end": 0.997},
+      {"word": "JavaScript?", "start": 1.011, "end": 1.755},
+      {"word": "Give", "start": 2.194, "end": 2.301},
+      {"word": "a", "start": 2.314, "end": 2.38},
+      {"word": "practical", "start": 2.394, "end": 2.899},
+      {"word": "example.", "start": 2.912, "end": 3.431}
+    ]
+  },
+  {
+    "id": "FE009",
+    "role": "frontend",
+    "topic": "Browser rendering",
+    "difficulty": "hard",
+    "question": "How does the browser render a page, and what causes reflow and repaint?",
+    "expected_topics": [
+      "Parse HTML and CSS into DOM and CSSOM, then render tree",
+      "Layout, paint and composite",
+      "Changing size or position causes reflow; changing colour causes repaint"
+    ],
+    "keywords": [
+      ["dom", "cssom", "render tree", "parse"],
+      ["layout", "paint", "composit"],
+      ["reflow", "repaint", "width", "position", "colour", "color"]
+    ],
+    "audio": "/static/audio/frontend/FE009.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.199},
+      {"word": "does", "start": 0.213, "end": 0.372},
+      {"word": "the", "start": 0.386, "end": 0.505},
+      {"word": "browser", "start": 0.519, "end": 1.024},
+      {"word": "render", "start": 1.037, "end": 1.356},
+      {"word": "a", "start": 1.37, "end": 1.423},
+      {"word": "page,", "start": 1.436, "end": 1.995},
+      {"word": "and", "start": 2.314, "end": 2.394},
+      {"word": "what", "start": 2.407, "end": 2.58},
+      {"word": "causes", "start": 2.593, "end": 3.058},
+      {"word": "reflow", "start": 3.072, "end": 3.75},
+      {"word": "and", "start": 3.896, "end": 4.043},
+      {"word": "repaint?", "start": 4.056, "end": 4.707}
+    ]
+  },
+  {
+    "id": "FE010",
+    "role": "frontend",
+    "topic": "Web performance",
+    "difficulty": "hard",
+    "question": "What techniques would you use to make a slow website load faster?",
+    "expected_topics": [
+      "Smaller assets: minify, compress, optimise images",
+      "Load less up front: lazy loading, code splitting, defer scripts",
+      "Caching and CDNs"
+    ],
+    "keywords": [
+      ["minif", "compress", "gzip", "brotli", "image", "webp"],
+      ["lazy", "code split", "defer", "async"],
+      ["cach", "cdn"]
+    ],
+    "audio": "/static/audio/frontend/FE010.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.226},
+      {"word": "techniques", "start": 0.239, "end": 0.692},
+      {"word": "would", "start": 0.705, "end": 0.838},
+      {"word": "you", "start": 0.851, "end": 0.944},
+      {"word": "use", "start": 0.957, "end": 1.277},
+      {"word": "to", "start": 1.29, "end": 1.37},
+      {"word": "make", "start": 1.383, "end": 1.556},
+      {"word": "a", "start": 1.569, "end": 1.622},
+      {"word": "slow", "start": 1.636, "end": 2.061},
+      {"word": "website", "start": 2.074, "end": 2.606},
+      {"word": "load", "start": 2.62, "end": 2.832},
+      {"word": "faster?", "start": 2.846, "end": 3.444}
+    ]
+  }
+]

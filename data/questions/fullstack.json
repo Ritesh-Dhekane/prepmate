@@ -1,0 +1,315 @@
+[
+  {
+    "id": "FS001",
+    "role": "fullstack",
+    "topic": "Frontend/backend communication",
+    "difficulty": "easy",
+    "question": "What happens when you type a URL into the browser and press Enter?",
+    "expected_topics": [
+      "DNS lookup finds the server's IP address",
+      "TCP/TLS connection and an HTTP request",
+      "Server responds; browser parses and renders HTML, CSS and JavaScript"
+    ],
+    "keywords": [
+      ["dns", "ip address"],
+      ["tcp", "tls", "https", "http request", "handshake"],
+      ["response", "render", "pars", "html"]
+    ],
+    "audio": "/static/audio/fullstack/FS001.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.12, "end": 0.213},
+      {"word": "happens", "start": 0.226, "end": 0.585},
+      {"word": "when", "start": 0.598, "end": 0.705},
+      {"word": "you", "start": 0.718, "end": 0.824},
+      {"word": "type", "start": 0.838, "end": 1.104},
+      {"word": "a", "start": 1.117, "end": 1.157},
+      {"word": "URL", "start": 1.17, "end": 1.782},
+      {"word": "into", "start": 1.795, "end": 2.008},
+      {"word": "the", "start": 2.021, "end": 2.128},
+      {"word": "browser", "start": 2.141, "end": 2.646},
+      {"word": "and", "start": 2.832, "end": 2.912},
+      {"word": "press", "start": 2.926, "end": 3.258},
+      {"word": "Enter?", "start": 3.271, "end": 3.564}
+    ]
+  },
+  {
+    "id": "FS002",
+    "role": "fullstack",
+    "topic": "APIs",
+    "difficulty": "easy",
+    "question": "What is JSON, and why is it used so often in web APIs?",
+    "expected_topics": [
+      "Text format of key-value pairs and arrays",
+      "Easy for JavaScript and other languages to read and write",
+      "Lightweight and human-readable"
+    ],
+    "keywords": [
+      ["key", "value", "object", "array", "text format"],
+      ["javascript", "pars", "language", "serializ"],
+      ["lightweight", "readable", "simple"]
+    ],
+    "audio": "/static/audio/fullstack/FS002.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.346},
+      {"word": "JSON,", "start": 0.359, "end": 0.971},
+      {"word": "and", "start": 1.277, "end": 1.383},
+      {"word": "why", "start": 1.396, "end": 1.596},
+      {"word": "is", "start": 1.609, "end": 1.715},
+      {"word": "it", "start": 1.729, "end": 1.822},
+      {"word": "used", "start": 1.835, "end": 2.101},
+      {"word": "so", "start": 2.114, "end": 2.42},
+      {"word": "often", "start": 2.433, "end": 2.819},
+      {"word": "in", "start": 2.832, "end": 2.939},
+      {"word": "web", "start": 2.952, "end": 3.165},
+      {"word": "APIs?", "start": 3.178, "end": 3.949}
+    ]
+  },
+  {
+    "id": "FS003",
+    "role": "fullstack",
+    "topic": "Frontend/backend communication",
+    "difficulty": "easy",
+    "question": "What is CORS, and why do browsers enforce it?",
+    "expected_topics": [
+      "Cross-Origin Resource Sharing",
+      "Same-origin policy protects users",
+      "Server allows origins with headers like Access-Control-Allow-Origin"
+    ],
+    "keywords": [
+      ["cross-origin", "cross origin", "resource sharing"],
+      ["same-origin", "same origin", "security", "protect"],
+      ["access-control-allow-origin", "header", "preflight", "options"]
+    ],
+    "audio": "/static/audio/fullstack/FS003.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.213},
+      {"word": "is", "start": 0.226, "end": 0.319},
+      {"word": "CORS,", "start": 0.332, "end": 1.157},
+      {"word": "and", "start": 1.396, "end": 1.529},
+      {"word": "why", "start": 1.543, "end": 1.689},
+      {"word": "do", "start": 1.702, "end": 1.862},
+      {"word": "browsers", "start": 1.875, "end": 2.38},
+      {"word": "enforce", "start": 2.394, "end": 2.819},
+      {"word": "it?", "start": 2.832, "end": 3.019}
+    ]
+  },
+  {
+    "id": "FS004",
+    "role": "fullstack",
+    "topic": "Architecture",
+    "difficulty": "easy",
+    "question": "What is the difference between client-side rendering and server-side rendering?",
+    "expected_topics": [
+      "CSR builds the page in the browser with JavaScript",
+      "SSR sends ready HTML from the server",
+      "Trade-offs: first load, SEO, interactivity"
+    ],
+    "keywords": [
+      ["browser", "javascript", "client"],
+      ["server", "html"],
+      ["seo", "first load", "performance", "hydrat", "interactiv"]
+    ],
+    "audio": "/static/audio/fullstack/FS004.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.346},
+      {"word": "the", "start": 0.359, "end": 0.492},
+      {"word": "difference", "start": 0.505, "end": 0.918},
+      {"word": "between", "start": 0.931, "end": 1.303},
+      {"word": "client-side", "start": 1.317, "end": 2.088},
+      {"word": "rendering", "start": 2.101, "end": 2.66},
+      {"word": "and", "start": 2.793, "end": 2.912},
+      {"word": "server-side", "start": 2.926, "end": 3.617},
+      {"word": "rendering?", "start": 3.63, "end": 4.122}
+    ]
+  },
+  {
+    "id": "FS005",
+    "role": "fullstack",
+    "topic": "Authentication",
+    "difficulty": "medium",
+    "question": "How does session-based authentication differ from token-based authentication?",
+    "expected_topics": [
+      "Sessions keep state on the server with a session ID cookie",
+      "Tokens such as JWT carry signed claims and are stateless",
+      "Trade-offs: revoking, scaling, storage"
+    ],
+    "keywords": [
+      ["session", "cookie", "server-side", "stored on the server"],
+      ["token", "jwt", "stateless", "signed"],
+      ["revok", "scal", "expir", "storage"]
+    ],
+    "audio": "/static/audio/fullstack/FS005.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.213},
+      {"word": "does", "start": 0.226, "end": 0.386},
+      {"word": "session-based", "start": 0.399, "end": 1.21},
+      {"word": "authentication", "start": 1.223, "end": 2.021},
+      {"word": "differ", "start": 2.035, "end": 2.34},
+      {"word": "from", "start": 2.354, "end": 2.54},
+      {"word": "token-based", "start": 2.553, "end": 3.258},
+      {"word": "authentication?", "start": 3.271, "end": 4.016}
+    ]
+  },
+  {
+    "id": "FS006",
+    "role": "fullstack",
+    "topic": "Databases",
+    "difficulty": "medium",
+    "question": "When would you choose a SQL database over a NoSQL database?",
+    "expected_topics": [
+      "Structured, related data with a fixed schema",
+      "Joins and ACID transactions",
+      "NoSQL for flexible schemas or huge scale"
+    ],
+    "keywords": [
+      ["structur", "relation", "schema", "table"],
+      ["join", "acid", "transaction", "consisten"],
+      ["nosql", "flexible", "document", "mongodb", "scale"]
+    ],
+    "audio": "/static/audio/fullstack/FS006.mp3",
+    "wordTimings": [
+      {"word": "When", "start": 0.12, "end": 0.213},
+      {"word": "would", "start": 0.226, "end": 0.359},
+      {"word": "you", "start": 0.372, "end": 0.465},
+      {"word": "choose", "start": 0.479, "end": 0.838},
+      {"word": "a", "start": 0.851, "end": 0.904},
+      {"word": "SQL", "start": 0.918, "end": 1.33},
+      {"word": "database", "start": 1.343, "end": 1.941},
+      {"word": "over", "start": 2.035, "end": 2.274},
+      {"word": "a", "start": 2.287, "end": 2.314},
+      {"word": "NoSQL", "start": 2.327, "end": 2.926},
+      {"word": "database?", "start": 2.939, "end": 3.644}
+    ]
+  },
+  {
+    "id": "FS007",
+    "role": "fullstack",
+    "topic": "Deployment",
+    "difficulty": "medium",
+    "question": "How would you deploy a full stack web application to production?",
+    "expected_topics": [
+      "Build the frontend and run the backend on a server or platform",
+      "Environment variables for configuration and secrets",
+      "HTTPS, database, and CI/CD or monitoring"
+    ],
+    "keywords": [
+      ["build", "server", "hosting", "cloud", "docker", "platform"],
+      ["environment variable", "env", "config", "secret"],
+      ["https", "ci/cd", "pipeline", "monitor", "database"]
+    ],
+    "audio": "/static/audio/fullstack/FS007.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.226},
+      {"word": "would", "start": 0.239, "end": 0.372},
+      {"word": "you", "start": 0.386, "end": 0.479},
+      {"word": "deploy", "start": 0.492, "end": 0.957},
+      {"word": "a", "start": 0.971, "end": 1.037},
+      {"word": "full", "start": 1.051, "end": 1.423},
+      {"word": "stack", "start": 1.436, "end": 1.808},
+      {"word": "web", "start": 1.822, "end": 2.008},
+      {"word": "application", "start": 2.021, "end": 2.646},
+      {"word": "to", "start": 2.66, "end": 2.726},
+      {"word": "production?", "start": 2.739, "end": 3.271}
+    ]
+  },
+  {
+    "id": "FS008",
+    "role": "fullstack",
+    "topic": "Security",
+    "difficulty": "hard",
+    "question": "How do you protect a web application against XSS and SQL injection?",
+    "expected_topics": [
+      "Escape or sanitise output to stop XSS",
+      "Parameterized queries or ORMs to stop SQL injection",
+      "Validate input and use a Content Security Policy"
+    ],
+    "keywords": [
+      ["escap", "sanitiz", "sanitis", "encode", "xss"],
+      ["parameteriz", "prepared statement", "orm", "placeholder"],
+      ["validat", "content security policy", "csp"]
+    ],
+    "audio": "/static/audio/fullstack/FS008.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.213},
+      {"word": "do", "start": 0.226, "end": 0.293},
+      {"word": "you", "start": 0.306, "end": 0.412},
+      {"word": "protect", "start": 0.426, "end": 0.851},
+      {"word": "a", "start": 0.864, "end": 0.931},
+      {"word": "web", "start": 0.944, "end": 1.197},
+      {"word": "application", "start": 1.21, "end": 1.888},
+      {"word": "against", "start": 1.902, "end": 2.261},
+      {"word": "XSS", "start": 2.327, "end": 3.192},
+      {"word": "and", "start": 3.271, "end": 3.391},
+      {"word": "SQL", "start": 3.404, "end": 3.803},
+      {"word": "injection?", "start": 3.817, "end": 4.348}
+    ]
+  },
+  {
+    "id": "FS009",
+    "role": "fullstack",
+    "topic": "Architecture",
+    "difficulty": "hard",
+    "question": "How would you design an app that shows real-time updates, like a chat?",
+    "expected_topics": [
+      "WebSockets or server-sent events instead of constant polling",
+      "Server broadcasts messages to connected clients",
+      "Scaling with a message broker or pub/sub"
+    ],
+    "keywords": [
+      ["websocket", "socket", "server-sent", "sse", "polling"],
+      ["broadcast", "push", "connected client"],
+      ["redis", "pub/sub", "pubsub", "broker", "queue", "scal"]
+    ],
+    "audio": "/static/audio/fullstack/FS009.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.12, "end": 0.213},
+      {"word": "would", "start": 0.226, "end": 0.359},
+      {"word": "you", "start": 0.372, "end": 0.465},
+      {"word": "design", "start": 0.479, "end": 0.891},
+      {"word": "an", "start": 0.904, "end": 0.984},
+      {"word": "app", "start": 0.997, "end": 1.263},
+      {"word": "that", "start": 1.277, "end": 1.41},
+      {"word": "shows", "start": 1.423, "end": 1.742},
+      {"word": "real-time", "start": 1.755, "end": 2.261},
+      {"word": "updates,", "start": 2.274, "end": 2.872},
+      {"word": "like", "start": 3.058, "end": 3.205},
+      {"word": "a", "start": 3.218, "end": 3.245},
+      {"word": "chat?", "start": 3.258, "end": 3.697}
+    ]
+  },
+  {
+    "id": "FS010",
+    "role": "fullstack",
+    "topic": "Architecture",
+    "difficulty": "hard",
+    "question": "How would you structure a growing full stack project so it stays maintainable?",
+    "expected_topics": [
+      "Clear separation of layers: UI, API, business logic, data",
+      "Reusable modules and consistent conventions",
+      "Tests, documentation and code review"
+    ],
+    "keywords": [
+      ["separat", "layer", "mvc", "service", "component"],
+      ["reusab", "module", "convention", "folder"],
+      ["test", "document", "review", "lint"]
+    ],
+    "audio": "/static/audio/fullstack/FS010.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.213},
+      {"word": "would", "start": 0.226, "end": 0.359},
+      {"word": "you", "start": 0.372, "end": 0.465},
+      {"word": "structure", "start": 0.479, "end": 1.024},
+      {"word": "a", "start": 1.037, "end": 1.09},
+      {"word": "growing", "start": 1.104, "end": 1.556},
+      {"word": "full", "start": 1.569, "end": 1.915},
+      {"word": "stack", "start": 1.928, "end": 2.274},
+      {"word": "project", "start": 2.287, "end": 2.819},
+      {"word": "so", "start": 3.058, "end": 3.258},
+      {"word": "it", "start": 3.271, "end": 3.351},
+      {"word": "stays", "start": 3.364, "end": 3.67},
+      {"word": "maintainable?", "start": 3.683, "end": 4.362}
+    ]
+  }
+]

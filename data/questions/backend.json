@@ -1,0 +1,302 @@
+[
+  {
+    "id": "BE001",
+    "role": "backend",
+    "topic": "REST APIs",
+    "difficulty": "easy",
+    "question": "What is a REST API?",
+    "expected_topics": [
+      "Resources identified by URLs",
+      "HTTP methods such as GET, POST, PUT and DELETE",
+      "Stateless requests, usually JSON"
+    ],
+    "keywords": [
+      ["resource", "url", "endpoint", "uri"],
+      ["get", "post", "put", "delete", "http method"],
+      ["stateless", "json"]
+    ],
+    "audio": "/static/audio/backend/BE001.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.199},
+      {"word": "is", "start": 0.213, "end": 0.293},
+      {"word": "a", "start": 0.306, "end": 0.359},
+      {"word": "REST", "start": 0.372, "end": 0.705},
+      {"word": "API?", "start": 0.718, "end": 1.223}
+    ]
+  },
+  {
+    "id": "BE002",
+    "role": "backend",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "What do HTTP status codes like 200, 404 and 500 mean?",
+    "expected_topics": [
+      "2xx success (200 OK, 201 Created)",
+      "4xx client errors (400, 401, 403, 404)",
+      "5xx server errors (500)"
+    ],
+    "keywords": [
+      ["200", "success", "ok", "201"],
+      ["404", "not found", "client error", "400", "401", "403"],
+      ["500", "server error", "internal"]
+    ],
+    "audio": "/static/audio/backend/BE002.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.239},
+      {"word": "do", "start": 0.253, "end": 0.452},
+      {"word": "HTTP", "start": 0.465, "end": 1.356},
+      {"word": "status", "start": 1.37, "end": 1.782},
+      {"word": "codes", "start": 1.795, "end": 2.128},
+      {"word": "like", "start": 2.141, "end": 2.34},
+      {"word": "200,", "start": 2.354, "end": 3.058},
+      {"word": "404", "start": 3.378, "end": 4.282},
+      {"word": "and", "start": 4.521, "end": 4.588},
+      {"word": "500", "start": 4.601, "end": 5.173},
+      {"word": "mean?", "start": 5.186, "end": 5.439}
+    ]
+  },
+  {
+    "id": "BE003",
+    "role": "backend",
+    "topic": "HTTP",
+    "difficulty": "easy",
+    "question": "What is the difference between GET and POST requests?",
+    "expected_topics": [
+      "GET reads data, POST creates or sends data",
+      "GET parameters in the URL, POST data in the body",
+      "GET is safe, idempotent and cacheable"
+    ],
+    "keywords": [
+      ["read", "fetch", "retrieve", "create", "submit", "send"],
+      ["url", "query", "body"],
+      ["idempotent", "cache", "safe"]
+    ],
+    "audio": "/static/audio/backend/BE003.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.213},
+      {"word": "is", "start": 0.226, "end": 0.332},
+      {"word": "the", "start": 0.346, "end": 0.465},
+      {"word": "difference", "start": 0.479, "end": 0.878},
+      {"word": "between", "start": 0.891, "end": 1.29},
+      {"word": "GET", "start": 1.303, "end": 1.609},
+      {"word": "and", "start": 1.689, "end": 1.795},
+      {"word": "POST", "start": 1.808, "end": 2.168},
+      {"word": "requests?", "start": 2.181, "end": 2.886}
+    ]
+  },
+  {
+    "id": "BE004",
+    "role": "backend",
+    "topic": "Server-side programming",
+    "difficulty": "easy",
+    "question": "What is middleware in a backend framework?",
+    "expected_topics": [
+      "Code that runs between the request and the route handler",
+      "Used for logging, authentication, parsing",
+      "Can pass the request on or stop it"
+    ],
+    "keywords": [
+      ["between", "request", "handler", "pipeline"],
+      ["logging", "auth", "pars", "cors"],
+      ["next", "pass", "stop", "chain"]
+    ],
+    "audio": "/static/audio/backend/BE004.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.12, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.346},
+      {"word": "middleware", "start": 0.359, "end": 0.918},
+      {"word": "in", "start": 0.931, "end": 1.05},
+      {"word": "a", "start": 1.064, "end": 1.13},
+      {"word": "backend", "start": 1.144, "end": 1.596},
+      {"word": "framework?", "start": 1.609, "end": 2.247}
+    ]
+  },
+  {
+    "id": "BE005",
+    "role": "backend",
+    "topic": "Authentication",
+    "difficulty": "medium",
+    "question": "What is the difference between authentication and authorization?",
+    "expected_topics": [
+      "Authentication verifies who the user is",
+      "Authorization decides what they may access",
+      "Examples: login, tokens, roles and permissions"
+    ],
+    "keywords": [
+      ["who", "identity", "verif", "login", "credential"],
+      ["permission", "access", "allowed", "what"],
+      ["role", "token", "jwt", "rbac", "admin"]
+    ],
+    "audio": "/static/audio/backend/BE005.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.346},
+      {"word": "the", "start": 0.359, "end": 0.479},
+      {"word": "difference", "start": 0.492, "end": 0.918},
+      {"word": "between", "start": 0.931, "end": 1.303},
+      {"word": "authentication", "start": 1.383, "end": 2.327},
+      {"word": "and", "start": 2.46, "end": 2.58},
+      {"word": "authorization?", "start": 2.593, "end": 3.431}
+    ]
+  },
+  {
+    "id": "BE006",
+    "role": "backend",
+    "topic": "Authentication",
+    "difficulty": "medium",
+    "question": "How should passwords be stored in a database?",
+    "expected_topics": [
+      "Never store plain text",
+      "Slow hashing algorithms such as bcrypt or Argon2",
+      "Unique salt per password"
+    ],
+    "keywords": [
+      ["plain text", "plaintext", "never"],
+      ["hash", "bcrypt", "argon", "scrypt", "pbkdf2"],
+      ["salt"]
+    ],
+    "audio": "/static/audio/backend/BE006.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.213},
+      {"word": "should", "start": 0.226, "end": 0.426},
+      {"word": "passwords", "start": 0.439, "end": 1.077},
+      {"word": "be", "start": 1.09, "end": 1.21},
+      {"word": "stored", "start": 1.223, "end": 1.609},
+      {"word": "in", "start": 1.622, "end": 1.702},
+      {"word": "a", "start": 1.715, "end": 1.769},
+      {"word": "database?", "start": 1.782, "end": 2.5}
+    ]
+  },
+  {
+    "id": "BE007",
+    "role": "backend",
+    "topic": "Error handling",
+    "difficulty": "medium",
+    "question": "How do you handle errors in an API so clients get useful responses?",
+    "expected_topics": [
+      "Correct status codes",
+      "Consistent error body with a clear message",
+      "Log details on the server, never leak stack traces"
+    ],
+    "keywords": [
+      ["status code", "400", "404", "500", "status"],
+      ["message", "json", "consistent", "format"],
+      ["log", "stack trace", "leak", "sensitive"]
+    ],
+    "audio": "/static/audio/backend/BE007.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.213},
+      {"word": "do", "start": 0.226, "end": 0.293},
+      {"word": "you", "start": 0.306, "end": 0.439},
+      {"word": "handle", "start": 0.452, "end": 0.838},
+      {"word": "errors", "start": 0.851, "end": 1.197},
+      {"word": "in", "start": 1.21, "end": 1.356},
+      {"word": "an", "start": 1.37, "end": 1.529},
+      {"word": "API", "start": 1.596, "end": 2.181},
+      {"word": "so", "start": 2.194, "end": 2.447},
+      {"word": "clients", "start": 2.46, "end": 2.939},
+      {"word": "get", "start": 2.952, "end": 3.112},
+      {"word": "useful", "start": 3.125, "end": 3.484},
+      {"word": "responses?", "start": 3.497, "end": 4.215}
+    ]
+  },
+  {
+    "id": "BE008",
+    "role": "backend",
+    "topic": "REST APIs",
+    "difficulty": "hard",
+    "question": "What does idempotency mean for an API, and why does it matter?",
+    "expected_topics": [
+      "Repeating the same request has the same effect",
+      "GET, PUT and DELETE are idempotent; POST is not",
+      "Safe retries, e.g. idempotency keys for payments"
+    ],
+    "keywords": [
+      ["same effect", "same result", "repeat", "multiple times"],
+      ["put", "delete", "post"],
+      ["retry", "retries", "idempotency key", "payment", "duplicate"]
+    ],
+    "audio": "/static/audio/backend/BE008.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.213},
+      {"word": "does", "start": 0.226, "end": 0.372},
+      {"word": "idempotency", "start": 0.386, "end": 1.183},
+      {"word": "mean", "start": 1.197, "end": 1.489},
+      {"word": "for", "start": 1.503, "end": 1.662},
+      {"word": "an", "start": 1.676, "end": 1.769},
+      {"word": "API,", "start": 1.782, "end": 2.367},
+      {"word": "and", "start": 2.686, "end": 2.819},
+      {"word": "why", "start": 2.832, "end": 2.965},
+      {"word": "does", "start": 2.979, "end": 3.125},
+      {"word": "it", "start": 3.138, "end": 3.205},
+      {"word": "matter?", "start": 3.218, "end": 3.617}
+    ]
+  },
+  {
+    "id": "BE009",
+    "role": "backend",
+    "topic": "Databases",
+    "difficulty": "hard",
+    "question": "What is the N+1 query problem, and how do you fix it?",
+    "expected_topics": [
+      "One query for a list, then one more per item",
+      "Slow because of many round trips",
+      "Fix with joins, eager loading or batching"
+    ],
+    "keywords": [
+      ["one query", "per item", "each", "loop"],
+      ["slow", "round trip", "performance", "many queries"],
+      ["join", "eager", "batch", "prefetch", "include", "in clause"]
+    ],
+    "audio": "/static/audio/backend/BE009.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.213},
+      {"word": "is", "start": 0.226, "end": 0.319},
+      {"word": "the", "start": 0.332, "end": 0.439},
+      {"word": "N+1", "start": 0.519, "end": 1.383},
+      {"word": "query", "start": 1.396, "end": 1.742},
+      {"word": "problem,", "start": 1.755, "end": 2.221},
+      {"word": "and", "start": 2.54, "end": 2.593},
+      {"word": "how", "start": 2.606, "end": 2.713},
+      {"word": "do", "start": 2.726, "end": 2.779},
+      {"word": "you", "start": 2.793, "end": 2.886},
+      {"word": "fix", "start": 2.899, "end": 3.205},
+      {"word": "it?", "start": 3.218, "end": 3.391}
+    ]
+  },
+  {
+    "id": "BE010",
+    "role": "backend",
+    "topic": "Caching",
+    "difficulty": "hard",
+    "question": "How would you use caching to speed up an API, and what are the risks?",
+    "expected_topics": [
+      "Cache results in memory or Redis, or with HTTP caching",
+      "Expiry (TTL) and invalidation",
+      "Risk of stale or inconsistent data"
+    ],
+    "keywords": [
+      ["redis", "memcached", "memory", "cache-control", "http cach"],
+      ["ttl", "expir", "invalidat"],
+      ["stale", "inconsisten", "outdated"]
+    ],
+    "audio": "/static/audio/backend/BE010.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.106, "end": 0.226},
+      {"word": "would", "start": 0.239, "end": 0.372},
+      {"word": "you", "start": 0.386, "end": 0.465},
+      {"word": "use", "start": 0.479, "end": 0.691},
+      {"word": "caching", "start": 0.705, "end": 1.144},
+      {"word": "to", "start": 1.157, "end": 1.223},
+      {"word": "speed", "start": 1.237, "end": 1.569},
+      {"word": "up", "start": 1.582, "end": 1.729},
+      {"word": "an", "start": 1.742, "end": 1.835},
+      {"word": "API,", "start": 1.848, "end": 2.447},
+      {"word": "and", "start": 2.753, "end": 2.872},
+      {"word": "what", "start": 2.886, "end": 2.992},
+      {"word": "are", "start": 3.005, "end": 3.059},
+      {"word": "the", "start": 3.072, "end": 3.138},
+      {"word": "risks?", "start": 3.152, "end": 3.737}
+    ]
+  }
+]

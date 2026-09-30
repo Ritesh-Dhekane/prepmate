@@ -1,0 +1,314 @@
+[
+  {
+    "id": "DB001",
+    "role": "database",
+    "topic": "Keys",
+    "difficulty": "easy",
+    "question": "What is the difference between a primary key and a foreign key?",
+    "expected_topics": [
+      "A primary key uniquely identifies each row",
+      "A foreign key references a primary key in another table",
+      "Together they keep relationships consistent"
+    ],
+    "keywords": [
+      ["unique", "identif", "each row", "not null"],
+      ["reference", "another table", "other table"],
+      ["relationship", "integrity", "consisten"]
+    ],
+    "audio": "/static/audio/database/DB001.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.346},
+      {"word": "the", "start": 0.359, "end": 0.479},
+      {"word": "difference", "start": 0.492, "end": 0.891},
+      {"word": "between", "start": 0.904, "end": 1.21},
+      {"word": "a", "start": 1.223, "end": 1.277},
+      {"word": "primary", "start": 1.29, "end": 1.888},
+      {"word": "key", "start": 1.902, "end": 2.367},
+      {"word": "and", "start": 2.433, "end": 2.566},
+      {"word": "a", "start": 2.58, "end": 2.633},
+      {"word": "foreign", "start": 2.646, "end": 3.019},
+      {"word": "key?", "start": 3.032, "end": 3.391}
+    ]
+  },
+  {
+    "id": "DB002",
+    "role": "database",
+    "topic": "SQL",
+    "difficulty": "easy",
+    "question": "What does a SELECT statement do, and what are WHERE and ORDER BY used for?",
+    "expected_topics": [
+      "SELECT reads columns from a table",
+      "WHERE filters rows",
+      "ORDER BY sorts the results"
+    ],
+    "keywords": [
+      ["select", "retriev", "column", "read"],
+      ["where", "filter", "condition"],
+      ["order by", "sort", "ascending", "descending", "asc", "desc"]
+    ],
+    "audio": "/static/audio/database/DB002.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.213},
+      {"word": "does", "start": 0.226, "end": 0.346},
+      {"word": "a", "start": 0.359, "end": 0.426},
+      {"word": "SELECT", "start": 0.439, "end": 0.838},
+      {"word": "statement", "start": 0.851, "end": 1.396},
+      {"word": "do,", "start": 1.41, "end": 1.755},
+      {"word": "and", "start": 2.114, "end": 2.247},
+      {"word": "what", "start": 2.261, "end": 2.42},
+      {"word": "are", "start": 2.433, "end": 2.566},
+      {"word": "WHERE", "start": 2.58, "end": 2.912},
+      {"word": "and", "start": 3.058, "end": 3.191},
+      {"word": "ORDER", "start": 3.271, "end": 3.604},
+      {"word": "BY", "start": 3.617, "end": 3.737},
+      {"word": "used", "start": 3.75, "end": 4.082},
+      {"word": "for?", "start": 4.096, "end": 4.481}
+    ]
+  },
+  {
+    "id": "DB003",
+    "role": "database",
+    "topic": "JOIN",
+    "difficulty": "easy",
+    "question": "Explain the difference between an INNER JOIN and a LEFT JOIN.",
+    "expected_topics": [
+      "INNER JOIN returns only matching rows",
+      "LEFT JOIN keeps all rows from the left table",
+      "Unmatched columns become NULL"
+    ],
+    "keywords": [
+      ["match", "both tables", "common"],
+      ["all rows", "left table", "every row"],
+      ["null"]
+    ],
+    "audio": "/static/audio/database/DB003.mp3",
+    "wordTimings": [
+      {"word": "Explain", "start": 0.106, "end": 0.585},
+      {"word": "the", "start": 0.598, "end": 0.718},
+      {"word": "difference", "start": 0.731, "end": 1.13},
+      {"word": "between", "start": 1.144, "end": 1.516},
+      {"word": "an", "start": 1.529, "end": 1.636},
+      {"word": "INNER", "start": 1.729, "end": 1.968},
+      {"word": "JOIN", "start": 1.981, "end": 2.46},
+      {"word": "and", "start": 2.58, "end": 2.699},
+      {"word": "a", "start": 2.713, "end": 2.779},
+      {"word": "LEFT", "start": 2.793, "end": 3.138},
+      {"word": "JOIN.", "start": 3.152, "end": 3.537}
+    ]
+  },
+  {
+    "id": "DB004",
+    "role": "database",
+    "topic": "SQL",
+    "difficulty": "easy",
+    "question": "What is the difference between WHERE and HAVING in SQL?",
+    "expected_topics": [
+      "WHERE filters rows before grouping",
+      "HAVING filters groups after GROUP BY",
+      "HAVING can use aggregates like COUNT or SUM"
+    ],
+    "keywords": [
+      ["before", "row"],
+      ["after", "group by", "group"],
+      ["aggregate", "count", "sum", "avg"]
+    ],
+    "audio": "/static/audio/database/DB004.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.346},
+      {"word": "the", "start": 0.359, "end": 0.505},
+      {"word": "difference", "start": 0.519, "end": 0.944},
+      {"word": "between", "start": 0.957, "end": 1.463},
+      {"word": "WHERE", "start": 1.476, "end": 1.902},
+      {"word": "and", "start": 2.021, "end": 2.101},
+      {"word": "HAVING", "start": 2.114, "end": 2.5},
+      {"word": "in", "start": 2.513, "end": 2.593},
+      {"word": "SQL?", "start": 2.606, "end": 3.098}
+    ]
+  },
+  {
+    "id": "DB005",
+    "role": "database",
+    "topic": "Normalization",
+    "difficulty": "medium",
+    "question": "What is database normalization, and why is it useful?",
+    "expected_topics": [
+      "Organising data to reduce duplication",
+      "Normal forms such as 1NF, 2NF and 3NF",
+      "Avoids update, insert and delete anomalies"
+    ],
+    "keywords": [
+      ["redundan", "duplicat", "organiz", "organis"],
+      ["1nf", "2nf", "3nf", "normal form"],
+      ["anomal", "integrity", "consisten"]
+    ],
+    "audio": "/static/audio/database/DB005.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.12, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.359},
+      {"word": "database", "start": 0.372, "end": 0.918},
+      {"word": "normalization,", "start": 0.931, "end": 1.729},
+      {"word": "and", "start": 2.035, "end": 2.128},
+      {"word": "why", "start": 2.141, "end": 2.354},
+      {"word": "is", "start": 2.367, "end": 2.473},
+      {"word": "it", "start": 2.487, "end": 2.58},
+      {"word": "useful?", "start": 2.593, "end": 3.072}
+    ]
+  },
+  {
+    "id": "DB006",
+    "role": "database",
+    "topic": "Indexing",
+    "difficulty": "medium",
+    "question": "What is an index, and what are its trade-offs?",
+    "expected_topics": [
+      "A data structure (often a B-tree) that speeds up lookups",
+      "Faster reads on searched or joined columns",
+      "Costs extra storage and slower writes"
+    ],
+    "keywords": [
+      ["b-tree", "btree", "data structure", "lookup", "pointer"],
+      ["faster", "speed", "search", "where", "read"],
+      ["storage", "space", "slower", "write", "insert", "update"]
+    ],
+    "audio": "/static/audio/database/DB006.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.213},
+      {"word": "is", "start": 0.226, "end": 0.332},
+      {"word": "an", "start": 0.346, "end": 0.439},
+      {"word": "index,", "start": 0.452, "end": 1.077},
+      {"word": "and", "start": 1.263, "end": 1.383},
+      {"word": "what", "start": 1.396, "end": 1.516},
+      {"word": "are", "start": 1.529, "end": 1.609},
+      {"word": "its", "start": 1.622, "end": 1.729},
+      {"word": "trade-offs?", "start": 1.742, "end": 2.473}
+    ]
+  },
+  {
+    "id": "DB007",
+    "role": "database",
+    "topic": "Transactions",
+    "difficulty": "medium",
+    "question": "What is a transaction, and what do the ACID properties mean?",
+    "expected_topics": [
+      "A group of operations that succeed or fail together",
+      "Atomicity, Consistency, Isolation, Durability",
+      "COMMIT and ROLLBACK"
+    ],
+    "keywords": [
+      ["together", "all or nothing", "unit", "group of"],
+      ["atomic", "consisten", "isolat", "durab"],
+      ["commit", "rollback"]
+    ],
+    "audio": "/static/audio/database/DB007.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.12, "end": 0.226},
+      {"word": "is", "start": 0.239, "end": 0.332},
+      {"word": "a", "start": 0.346, "end": 0.399},
+      {"word": "transaction,", "start": 0.412, "end": 1.25},
+      {"word": "and", "start": 1.543, "end": 1.622},
+      {"word": "what", "start": 1.636, "end": 1.769},
+      {"word": "do", "start": 1.782, "end": 1.875},
+      {"word": "the", "start": 1.888, "end": 2.021},
+      {"word": "ACID", "start": 2.088, "end": 2.447},
+      {"word": "properties", "start": 2.46, "end": 2.965},
+      {"word": "mean?", "start": 2.979, "end": 3.245}
+    ]
+  },
+  {
+    "id": "DB008",
+    "role": "database",
+    "topic": "Transactions",
+    "difficulty": "hard",
+    "question": "What are transaction isolation levels, and what problems do they prevent?",
+    "expected_topics": [
+      "Read uncommitted, read committed, repeatable read, serializable",
+      "Dirty reads, non-repeatable reads, phantom reads",
+      "Higher isolation costs concurrency"
+    ],
+    "keywords": [
+      ["read committed", "read uncommitted", "repeatable read", "serializable"],
+      ["dirty read", "non-repeatable", "phantom"],
+      ["concurren", "lock", "performance"]
+    ],
+    "audio": "/static/audio/database/DB008.mp3",
+    "wordTimings": [
+      {"word": "What", "start": 0.106, "end": 0.173},
+      {"word": "are", "start": 0.186, "end": 0.253},
+      {"word": "transaction", "start": 0.266, "end": 1.104},
+      {"word": "isolation", "start": 1.117, "end": 1.742},
+      {"word": "levels,", "start": 1.755, "end": 2.247},
+      {"word": "and", "start": 2.473, "end": 2.593},
+      {"word": "what", "start": 2.606, "end": 2.806},
+      {"word": "problems", "start": 2.819, "end": 3.324},
+      {"word": "do", "start": 3.338, "end": 3.484},
+      {"word": "they", "start": 3.497, "end": 3.617},
+      {"word": "prevent?", "start": 3.63, "end": 4.215}
+    ]
+  },
+  {
+    "id": "DB009",
+    "role": "database",
+    "topic": "Indexing",
+    "difficulty": "hard",
+    "question": "A query is running slowly. How would you find and fix the problem?",
+    "expected_topics": [
+      "Use EXPLAIN to see the query plan",
+      "Add or adjust indexes and avoid full table scans",
+      "Rewrite the query: select fewer columns, fix joins, limit results"
+    ],
+    "keywords": [
+      ["explain", "query plan", "execution plan", "analyze"],
+      ["index", "full table scan", "seq scan"],
+      ["rewrite", "select *", "limit", "join", "pagination"]
+    ],
+    "audio": "/static/audio/database/DB009.mp3",
+    "wordTimings": [
+      {"word": "A", "start": 0.106, "end": 0.173},
+      {"word": "query", "start": 0.186, "end": 0.691},
+      {"word": "is", "start": 0.811, "end": 0.957},
+      {"word": "running", "start": 0.971, "end": 1.223},
+      {"word": "slowly.", "start": 1.237, "end": 1.742},
+      {"word": "How", "start": 2.181, "end": 2.274},
+      {"word": "would", "start": 2.287, "end": 2.42},
+      {"word": "you", "start": 2.433, "end": 2.54},
+      {"word": "find", "start": 2.553, "end": 2.965},
+      {"word": "and", "start": 2.979, "end": 3.072},
+      {"word": "fix", "start": 3.085, "end": 3.325},
+      {"word": "the", "start": 3.338, "end": 3.418},
+      {"word": "problem?", "start": 3.431, "end": 3.883}
+    ]
+  },
+  {
+    "id": "DB010",
+    "role": "database",
+    "topic": "Database design",
+    "difficulty": "hard",
+    "question": "How would you design the tables for a simple online store?",
+    "expected_topics": [
+      "Tables such as users, products, orders and order_items",
+      "Primary and foreign keys for relationships",
+      "Many-to-many via a join table; store prices at order time"
+    ],
+    "keywords": [
+      ["user", "customer", "product", "order"],
+      ["primary key", "foreign key", "relationship"],
+      ["order_items", "order items", "join table", "junction", "many-to-many", "price"]
+    ],
+    "audio": "/static/audio/database/DB010.mp3",
+    "wordTimings": [
+      {"word": "How", "start": 0.12, "end": 0.213},
+      {"word": "would", "start": 0.226, "end": 0.359},
+      {"word": "you", "start": 0.372, "end": 0.452},
+      {"word": "design", "start": 0.465, "end": 0.838},
+      {"word": "the", "start": 0.851, "end": 0.931},
+      {"word": "tables", "start": 0.944, "end": 1.37},
+      {"word": "for", "start": 1.383, "end": 1.529},
+      {"word": "a", "start": 1.543, "end": 1.596},
+      {"word": "simple", "start": 1.609, "end": 1.981},
+      {"word": "online", "start": 1.995, "end": 2.38},
+      {"word": "store?", "start": 2.394, "end": 2.806}
+    ]
+  }
+]
