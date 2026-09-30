@@ -36,6 +36,20 @@ Open http://127.0.0.1:5000.
 
 The key stays on the server; the browser never sees it. Never commit `.env`.
 
+Without an API key (or when Gemini is unreachable) the app still works: the results page says
+AI analysis isn't available and shows a basic analysis based on the key points each answer covered.
+
+## Questions and audio
+
+Questions live in `data/questions/<role>.json` (10 per role, plus `general.json` for Mixed
+interviews). Each question has its spoken audio in `static/audio/` and word timings used to
+highlight the word being read. After adding or editing questions, regenerate them (needs internet):
+
+```bash
+pip install -r requirements-dev.txt
+python scripts/generate_audio.py
+```
+
 ## Tests
 
 ```bash
