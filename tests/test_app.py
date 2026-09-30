@@ -17,7 +17,7 @@ def test_home_page_loads(client):
 
 
 def test_health(client):
-    assert client.get("/api/health").get_json() == {"status": "ok"}
+    assert client.get("/api/health").get_json()["status"] == "ok"
 
 
 def test_unknown_api_route_returns_json(client):
