@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PrepMate AI — Prepare. Practice. Perform.</title>
+    <meta
+      name="description"
+      content="Practice realistic developer interviews, answer questions, and get AI-powered feedback on where you can improve."
+    />
+    <link rel="icon" href="{{ url_for('static', filename='img/logo.svg') }}" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@600;700&display=swap"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <a class="sr-only" href="#app">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="#/" aria-label="PrepMate AI home">
+          <img src="{{ url_for('static', filename='img/logo.svg') }}" alt="" />
+          <span>PrepMate <span class="accent">AI</span></span>
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <span class="chip chip--ai"><span class="pulse-dot"></span>AI interview practice</span>
+        </nav>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1">
+      <section class="screen container" style="padding-top: 6rem; padding-bottom: 6rem">
+        <p class="eyebrow"><span class="pulse-dot"></span>AI-powered interview practice</p>
+        <h1 style="font-size: clamp(2rem, 5vw, 3.5rem); margin-top: 1rem">
+          Prepare. Practice. <span class="gradient-text">Perform.</span>
+        </h1>
+        <p class="muted" style="margin-top: 1rem; max-width: 36rem">
+          The interview experience is being built. This page confirms the Flask app and the design
+          system are running.
+        </p>
+        <div style="display: flex; gap: 1rem; align-items: center; margin-top: 2rem">
+          <button class="btn btn--primary btn--lg" type="button">Start Your Interview</button>
+          <span class="waveform is-active" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span class="tagline">PREPARE. PRACTICE. PERFORM.</span>
+        <span>AI scores are practice feedback, not an employment evaluation.</span>
+      </div>
+    </footer>
+  </body>
+</html>
