@@ -10,21 +10,31 @@ four skill dimensions, strengths, areas to improve, practice topics and notes on
 
 ## Run it locally
 
-Requires Python 3.10+.
+Requires Python 3.10+. From the repo root:
+
+```bash
+run          # Windows (or double-click run.cmd)
+./run.sh     # macOS / Linux
+```
+
+The first run creates `.venv`, installs the requirements and makes `.env` from `.env.example`;
+later runs start straight away (requirements are reinstalled only when `requirements.txt`
+changes). The browser opens at http://127.0.0.1:5000. Set `PORT` to use another port, or
+`NO_BROWSER=1` to skip opening the browser.
+
+<details>
+<summary>Manual setup</summary>
 
 ```bash
 python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS / Linux
-source .venv/bin/activate
-
+.venv\Scripts\activate        # Windows
+source .venv/bin/activate      # macOS / Linux
 pip install -r requirements.txt
-cp .env.example .env   # then add your Gemini API key
+cp .env.example .env           # then add your Gemini API key
 python app.py
 ```
 
-Open http://127.0.0.1:5000.
+</details>
 
 ### Configuration (`.env`)
 

@@ -152,4 +152,4 @@ def parse_analysis_request(payload, bank) -> tuple[str, str, list[tuple[dict, st
 app = create_app()
 
 if __name__ == "__main__":
-    app.run(debug=os.environ.get("FLASK_DEBUG") == "1")
+    app.run(port=int(os.environ.get("PORT", "5000")), debug=os.environ.get("FLASK_DEBUG") == "1")
