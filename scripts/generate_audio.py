@@ -5,7 +5,7 @@ Run once after adding or editing questions (needs an internet connection):
     python scripts/generate_audio.py            # only questions without audio / out of date
     python scripts/generate_audio.py --force    # everything
 
-Uses edge-tts (Microsoft's online neural voices). Writes static/audio/<role>/<ID>.mp3 and adds
+Uses edge-tts (Microsoft's online neural voices). Writes public/static/audio/<role>/<ID>.mp3 and adds
 "audio" and "wordTimings" to each question in data/questions/*.json. The app itself never
 generates speech; it only plays these files.
 """
@@ -21,7 +21,7 @@ import edge_tts
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "questions"
-AUDIO_DIR = ROOT / "static" / "audio"
+AUDIO_DIR = ROOT / "public" / "static" / "audio"
 VOICE = "en-US-AndrewNeural"
 RATE = "-6%"  # a touch slower than default: clearer for interview questions
 

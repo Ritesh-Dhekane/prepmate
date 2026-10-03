@@ -38,7 +38,9 @@ class BadRequest(Exception):
 
 
 def create_app(analyzer=gemini_analyze) -> Flask:
-    app = Flask(__name__)
+    # Static files live in public/static: Vercel serves public/ from its CDN (Flask's own static
+    # folder isn't served there), and locally Flask serves the same files at the same /static URLs.
+    app = Flask(__name__, static_folder="public/static", static_url_path="/static")
     app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY") or os.urandom(32)
     app.config["MAX_CONTENT_LENGTH"] = MAX_REQUEST_BYTES
     app.json.sort_keys = False

@@ -52,7 +52,7 @@ AI analysis isn't available and shows a basic analysis based on the key points e
 ## Questions and audio
 
 Questions live in `data/questions/<role>.json` (10 per role, plus `general.json` for Mixed
-interviews). Each question has its spoken audio in `static/audio/` and word timings used to
+interviews). Each question has its spoken audio in `public/static/audio/` and word timings used to
 highlight the word being read. After adding or editing questions, regenerate them (needs internet):
 
 ```bash
@@ -77,6 +77,17 @@ Browser (HTML / CSS / JavaScript)
 ```
 
 No database and no account needed.
+
+## Deploy (Vercel)
+
+The repo is ready for Vercel's free Hobby plan: Vercel finds the Flask `app` in `app.py`,
+serves `public/` (the CSS, JS, images and audio under `/static`) from its CDN, and
+`vercel.json` lets the AI analysis run for up to 60 seconds.
+
+1. vercel.com, then **Add New, Project**, and import this GitHub repo (framework preset: Flask).
+2. Under **Environment Variables** add `AI_API_KEY` (optional), `GEMINI_MODEL` (optional) and
+   `FLASK_SECRET_KEY` (any long random string), then **Deploy**.
+3. Every push to `main` deploys again; other branches get preview URLs.
 
 ## License
 
